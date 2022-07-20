@@ -4,7 +4,7 @@ import './ReservationCard.css';
 
 const ReservationCard = () => {
     return (
-        <div>
+        <div className='card'>
             <h3>Res Card</h3>
         </div>
     )
