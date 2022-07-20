@@ -4,7 +4,7 @@ import './ReservationCard.css';
 
 const ReservationCard = ({ id, name, date, time, number }) => {
     return (
-        <div className='card'>
+        <div className='card' data-cy='res-card'>
             <h3>{name}</h3>
             <p>{date}</p>
             <p>{time}pm</p>
