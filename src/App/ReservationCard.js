@@ -2,10 +2,14 @@ import React from 'react';
 import './ReservationCard.css';
 
 
-const ReservationCard = () => {
+const ReservationCard = ({ id, name, date, time, number }) => {
     return (
         <div className='card'>
-            <h3>Res Card</h3>
+            <h3>{name}</h3>
+            <p>{date}</p>
+            <p>{time}pm</p>
+            <p>Number of guests: {number}</p>
+            <button>Cancel</button>
         </div>
     )
 }
